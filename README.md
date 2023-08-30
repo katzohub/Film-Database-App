@@ -1,2 +1,2 @@
-![fotka pre moj projekt](foto-zoznam.png) 
+![fotka pre moj projekt](film-database.png) 
 # Film-Database-App
