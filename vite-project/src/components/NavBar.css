@@ -1,0 +1,93 @@
+.top-nav ul{
+    width: 100%;
+    height: 75px;
+    font-size: 1.3rem;
+
+    padding: 0 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 2px solid var(--main-primary-color);
+ 
+}
+nav ul li{
+    list-style: none;
+    cursor: pointer;
+    color: var(--main-text-color);
+}
+nav ul li button {
+    background: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+nav ul li a {
+    text-decoration: none;
+    color: var(--main-text-color);
+}
+nav ul li:hover{
+    color: var(--main-primary-color);
+}
+nav ul li a:hover {
+    color: var(--main-primary-color);
+}
+.btn-nav:hover{
+    color: var(--main-primary-color);
+}
+.nav-logo{
+    background-color: var(--main-primary-color);
+    padding: 10px 20px;
+    border-radius: var(--main-radius);
+    
+}
+.nav-logo:hover{
+    color: #fff;
+}
+nav ul li input {
+    width: 250px;
+    height: 30px;
+    font-size: 1.2rem;
+    text-align: center;
+
+    border: none;
+    background: transparent;
+
+
+    color: var(--main-text-color);
+    border-bottom: 2px solid var(--main-text-color);
+}
+
+nav ul li input[placeholder]:focus{
+    color: var(--main-text-color);
+}
+.sun:hover{
+     color: #658864 !important; 
+}
+.input:focus{
+    color: #292524 !important;
+}
+
+
+@media only screen and (max-width: 750px) {
+    
+    .top-nav ul{
+        font-size: 0.9rem;
+        padding: 0 0px;
+        padding-right: 20px;
+    }
+    .nav-logo{
+        display: none;
+        
+    }
+    nav ul li button {
+        font-size: 0.9rem;
+    }
+    nav ul li input {
+        width: 150px;
+        height: 30px;
+        font-size: 0.9rem;
+    }
+    } 

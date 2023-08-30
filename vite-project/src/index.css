@@ -1,0 +1,40 @@
+
+
+:root {
+  /* color dark*/
+  --main-bg-color: #323434;
+  --main-text-color: #fff;
+  --main-primary-color: #fda411;
+  --main-twoprimary-color:#0292ff;
+  /* color sun*/
+  --main-bg-sun-color: #dddddd;
+  --main-text-sun-color: #292524;
+  --main-postprimary-sun-color: #658864;
+  /* radius */
+  --main-radius:5px;
+  --main-radiustwo:25px;
+  --main-radius-rounded:50%;
+  /* font */
+  --font-general: 'Times New Roman', Times, serif;
+}
+
+
+/* first settings */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.primary-container{
+  font-family: var(--font-general);
+  background-color: var(--main-bg-color);
+
+  width: 100%;
+  min-height: 100vh;
+  
+  display: flex;
+  flex-direction: column;
+}
+
+
+
